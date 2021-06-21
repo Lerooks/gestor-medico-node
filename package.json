@@ -1,12 +1,12 @@
 {
   "name": "Gestor-medico-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "gestor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon -r dotenv/config ./index.js",
-    "start": "node -r dotenv/config ./index.js"
+    "start": "nodemon -r dotenv/config ./index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/lucax21/Gestor-medico-node#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv-safe": "^8.2.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.2",
     "sequelize-cli": "^6.2.0"
